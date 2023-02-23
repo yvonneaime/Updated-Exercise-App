@@ -45,7 +45,7 @@ function App() {
       {showcaseState == "pushups" ? <RepetitionExercise name={"Push Ups"} setShowCase={setShowcaseState}></RepetitionExercise> : undefined}
       {showcaseState == "jumpingjacks" ? <RepetitionExercise name={"Jumping Jacks"} setShowCase={setShowcaseState} ></RepetitionExercise> : undefined}
       {showcaseState == "situps" ? <RepetitionExercise name={"Sit Ups"} setShowCase={setShowcaseState}></RepetitionExercise> : undefined}
-      {showcaseState == "running" ? <DurationExcercise name={"Running"} setShowCase={setShowcaseState}></DurationExcercise> : undefined}
+      {showcaseState == "running" ?<DurationExcercise name={"Running"} setShowCase={setShowcaseState}></DurationExcercise> : undefined}
       {showcaseState == "bicycling" ? <DurationExcercise name={"Bicycling"} setShowCase={setShowcaseState}></DurationExcercise> : undefined}
     </div>
   );

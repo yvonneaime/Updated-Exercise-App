@@ -8,7 +8,7 @@ class RepetitionExercise extends React.Component {
     }
 
     setCount(count) {
-        if (count != 0) {
+        if (count !== 0) {
             this.setState(
                 ({ count }) => {
                     count++
